@@ -1,7 +1,6 @@
 import { LinkedList } from './LinkedList';
 import { NumbersCollection } from './NumbersCollection';
 import { CharactersCollection } from './CharactersCollection';
-import { Sorter } from './Sorter';
 
 const numbersCollection = new NumbersCollection([11, 3, -5, 0, 99]);
 numbersCollection.sort();
