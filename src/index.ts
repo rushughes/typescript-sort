@@ -1,3 +1,4 @@
+import { LinkedList } from './LinkedList';
 import { NumbersCollection } from './NumbersCollection';
 import { CharactersCollection } from './CharactersCollection';
 import { Sorter } from './Sorter';
@@ -8,8 +9,20 @@ import { Sorter } from './Sorter';
 // sorter.sort();
 // console.log(numbersCollection.data);
 
-const charactersCollection = new CharactersCollection('XPotato123');
-const sorter = new Sorter(charactersCollection);
-console.log(charactersCollection.data);
+// const charactersCollection = new CharactersCollection('XPotato123');
+// const sorter = new Sorter(charactersCollection);
+// console.log(charactersCollection.data);
+// sorter.sort();
+// console.log(charactersCollection.data);
+
+const linkedList = new LinkedList();
+linkedList.add(500);
+linkedList.add(-10);
+linkedList.add(1);
+linkedList.add(5);
+linkedList.add(0);
+
+const sorter = new Sorter(linkedList);
+linkedList.print();
 sorter.sort();
-console.log(charactersCollection.data);
+linkedList.print();
