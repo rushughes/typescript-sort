@@ -1,1 +1,7 @@
 - `tsc index.ts`
+- `tsc --init`
+- `tsc -w`
+- `node build/index.js`
+- `npm init -y`
+- `npm install nodemon concurrently`
+- `npm start`
